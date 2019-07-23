@@ -1,0 +1,24 @@
+{ 
+	"address": "10.0.0.221",
+	"port": "7777",
+	"segments": [
+		{
+			"name": "leftCloset",
+			"direction": "down",
+			"firstLED": 1,
+			"lastLED": 117
+		},
+		{
+			"name": "topCloset",
+			"direction": "out",
+			"firstLED": 118,
+			"lastLED": 197
+		},
+		{
+			"name": "rightCloset",
+			"direction": "down",
+			"firstLED": 198,
+			"lastLED": 300
+		}
+	]
+}
