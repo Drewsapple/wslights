@@ -1,24 +1,72 @@
-{ 
-	"address": "10.0.0.221",
-	"port": "7777",
-	"segments": [
+{
+	"devices": [
 		{
-			"name": "leftCloset",
-			"direction": "down",
-			"firstLED": 1,
-			"lastLED": 117
+			"name": "Drew",
+			"address": "192.168.1.221",
+			"port": "7777",
+			"segments": [
+				{
+					"name": "kbBoxWall",
+					"direction": "down",
+					"firstLED": 1,
+					"lastLED": 45
+				},
+				{
+					"name": "shelf",
+					"direction": "out",
+					"firstLED": 46,
+					"lastLED": 139
+				},
+				{
+					"name": "underBedDrew",
+					"direction": "down",
+					"firstLED": 140,
+					"lastLED": 294
+				},
+				{
+					"name": "ladderBend",
+					"direction": "down",
+					"firstLED": 295,
+					"lastLED": 300
+				}
+			]		
 		},
 		{
-			"name": "topCloset",
-			"direction": "out",
-			"firstLED": 118,
-			"lastLED": 197
-		},
-		{
-			"name": "rightCloset",
-			"direction": "down",
-			"firstLED": 198,
-			"lastLED": 300
+			"name": "Ankur",
+			"address": "192.168.1.222",
+			"port": "7777",
+			"segments": [
+				{
+					"name": "underBedAnkur",
+					"direction": "down",
+					"firstLED": 1,
+					"lastLED": 135
+				},
+				{
+					"name": "corner1",
+					"direction": "out",
+					"firstLED": 136,
+					"lastLED": 154
+				},
+				{
+					"name": "corner2",
+					"direction": "down",
+					"firstLED": 155,
+					"lastLED": 164
+				},
+				{
+					"name": "foot",
+					"direction": "out",
+					"firstLED": 165,
+					"lastLED": 215
+				},
+				{
+					"name": "back",
+					"direction": "down",
+					"firstLED": 216,
+					"lastLED": 300
+				}
+			]		
 		}
 	]
 }

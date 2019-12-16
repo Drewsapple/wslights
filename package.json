@@ -11,6 +11,8 @@
   "dependencies": {
     "colorsys": "^1.0.22",
     "dgram": "^1.0.1",
-    "express": "^4.17.1"
+    "express": "^4.17.1",
+    "homie-device": "^3.0.1",
+    "mqtt": "^3.0.0"
   }
 }

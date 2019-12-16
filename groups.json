@@ -1,0 +1,16 @@
+[
+    {
+        "name": "CrippleTriple",
+        "segments": [
+            {"name": "kbBoxWall"},
+            {"name": "shelf"},
+            {"name": "underBedDrew"},
+            {"name": "ladderBend"},
+            {"name": "underBedAnkur"},
+            {"name": "corner1"},
+            {"name": "corner2"},
+            {"name": "foot"},
+            {"name": "back"}
+        ]
+    }
+]
